@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use('/artifacts', express.static('C:/Users/ANIKET/.gemini/antigravity/brain/51476813-87cd-4749-9d16-c1bd1c0867c1'));
+// app.use('/artifacts', express.static('C:/Users/ANIKET/.gemini/antigravity/brain/51476813-87cd-4749-9d16-c1bd1c0867c1'));
 
 // Routes
 app.use('/api/projects', projectRoutes);
