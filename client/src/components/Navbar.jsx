@@ -30,7 +30,7 @@ const MyNavbar = ({ setAdminSession }) => {
         e.preventDefault();
         // These will be compared with values from .env via proxy or passed from parent
         // For simplicity in this demo, we'll assume they are passed or hardcoded if env is not reachable
-        if (credentials.username === 'admin' && credentials.password === 'surveymaster2024') {
+        if (credentials.username === 'sksurveymaster20@gmail.com' && credentials.password === 'SKsurvey@2026') {
             sessionStorage.setItem('adminToken', 'true');
             setAdminSession(true);
             setShowLogin(false);
